@@ -1,0 +1,119 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 1px;
+}
+
+h3 {
+  font-weight: lighter;
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* start header, beres */
+header {
+  text-align: center;
+  color: white;
+  background-color: rgb(70, 70, 236);
+  width: 700px;
+  margin: 15px auto;
+  padding: 30px;
+  border-radius: 15px;
+}
+
+.desc-header {
+  font-style: italic;
+  font-weight: lighter;
+  font-size: small;
+  margin-top: 10px;
+}
+/* end header */
+
+/* start card, beres */
+.card {
+  margin: 0px auto;
+  width: 700px;
+  box-shadow: 2px 2px 10px rgb(103, 103, 103);
+  padding: 30px;
+  border-radius: 15px;
+}
+
+/* start profil singkat, beres */
+.profile-singkat {
+  display: flex;
+  justify-content: center;
+}
+
+.image {
+  width: 100px;
+  height: 100px;
+  margin-right: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+  outline: 3px solid rgb(70, 70, 236);
+  object-position: center top;
+}
+
+.ul-profile-singkat li {
+  font-weight: lighter;
+  font-size: small;
+  margin: 6px;
+  list-style-type: none;
+}
+
+strong {
+  font-weight: bold;
+}
+/* end profile singkat */
+/* start detail biodata, beres */
+.detail-biodata {
+  margin-bottom: 20px;
+}
+
+.head-table {
+  background-color: rgb(70, 70, 236);
+  color: white;
+}
+
+table {
+  width: 700px;
+  table-layout: fixed;
+}
+
+table,
+tr,
+td {
+  border: 1px solid rgb(114, 114, 114);
+  border-collapse: collapse;
+  font-size: small;
+}
+
+td {
+  padding: 7px;
+}
+/* end detail biodata */
+/* start hobi - keterampilan - pengalaman */
+.hobi-pendidikan {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+
+}
+
+.text-sub-header {
+  font-weight: bold;
+  margin: 15px 0px;
+}
+
+.ul-hobi-pend li {
+  font-weight: lighter;
+  font-size: small;
+  margin: 6px;
+}
+/* end hobi - keterampilan - pengalaman */
+
