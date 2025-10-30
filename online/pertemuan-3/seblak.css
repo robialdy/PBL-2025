@@ -1,0 +1,110 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+  display: flex;
+  background-color: orangered;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+}
+
+.logo div p {
+  color: rgb(134, 36, 0);
+  font-weight: bold;
+  font-size: 25px;
+  position: relative;
+  top: 30px;
+}
+
+ul {
+  display: flex;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  color: white;
+  margin: 20px 50px 20px 20px;
+  text-decoration: none;
+}
+
+/* end nav */
+
+.box-2 {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: rgb(255, 207, 160);
+}
+
+.slogan h1 {
+  color: rgb(134, 36, 0);
+  font-size: 70px;
+}
+
+.slogan-big {
+  margin-top: 40px;
+}
+
+.slogan-small {
+  color: rgb(134, 36, 0);
+  font-size: 40px;
+  font-weight: bold;
+}
+
+/* end box-2 */
+
+.box-3 {
+  text-align: center;
+  background-color: rgb(255, 223, 190);
+  padding-bottom: 50px;
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.box-3 h1 {
+  padding: 40px 0px 20px 0px;
+  color: rgb(134, 36, 0);
+}
+
+.card {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  width: 300px;
+}
+
+.box-3 p {
+    margin: 0px auto;
+    padding-bottom: 20px;
+    width: 700px;
+    font-size: 17px;
+}
+
+/* end box-3 */
+
+.box-4 {
+    background-color: orangered;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.contact {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    padding: 15px;
+}
