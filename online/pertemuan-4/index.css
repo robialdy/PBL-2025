@@ -1,0 +1,134 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  background-color: rgb(162, 0, 162);
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+  box-shadow: 1px 1px 8px rgb(202, 202, 202);
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  padding: 15px;
+}
+
+.logo p {
+  color: white;
+  font-weight: bold;
+  margin-left: 12px;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+}
+
+.menu ul li {
+  list-style-type: none;
+  padding: 20px;
+}
+
+.menu ul {
+  display: flex;
+}
+
+.menu ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+/* end navigasi */
+
+.profile {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 810px;
+}
+
+.profile .siswa {
+  position: relative;
+  top: 40px;
+}
+
+.profile-text {
+  color: rgb(162, 0, 162);
+  position: relative;
+  right: 80px;
+}
+
+.profile-text h1 {
+  width: 40pc;
+  font-size: 60px;
+}
+
+.profile-text p {
+  width: 40pc;
+  font-size: 20px;
+}
+
+.profile-text .smkn2 {
+  text-align: right;
+  font-weight: bold;
+}
+
+/* end profile */
+
+.detail {
+  height: 530px;
+  background-color: rgb(103, 0, 103);
+}
+
+.fitur {
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(103, 0, 103);
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+.card {
+  width: 200px;
+  height: 150px;
+  background-color: white;
+  padding: 30px;
+  border-radius: 15px;
+  color: rgb(162, 0, 162);
+}
+
+.card h1 {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.about-me {
+  text-align: center;
+  width: 1000px;
+  color: white;
+  margin: 10px auto;
+}
+
+.about-me h1 {
+  margin-bottom: 30px;
+}
+
+/* end detail */
+
+.footer {
+  display: flex;
+  padding: 30px;
+  background-color: white;
+  color: rgb(162, 0, 162);
+  font-weight: bold;
+  justify-content: center;
+  gap: 30px;
+}
